@@ -2,6 +2,10 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import ProductSlider from './components/ProductSlider';
 import ProductDetails from './components/ProductDetails';
+import DescriptionSection from './components/DescriptionSection';
+import FAQSection from './components/FAQSection';
+import Footer from './components/Footer';
+
 
 const App = () => {
   return (
@@ -17,6 +21,11 @@ const App = () => {
         </div>
       </div>
 
+      <DescriptionSection />
+      <FAQSection />
+      <Footer />
+
+
       <style>{`
         .product-section {
           display: flex;
@@ -24,11 +33,11 @@ const App = () => {
           flex-wrap: wrap;
           gap: 30px;
           padding: 30px;
-          margin: 20px; 
+          margin: 20px;
         }
 
         .left-section {
-          flex: 1.3;
+          flex: 1; /* Adjusting for better balance */
           min-width: 450px;
           max-width: 900px;
         }

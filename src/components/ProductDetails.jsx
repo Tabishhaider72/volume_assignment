@@ -156,8 +156,6 @@ const ProductDetails = () => {
         .details-container {
           max-width: 400px;
           padding: 20px;
-          border: 1px solid #ddd;
-          border-radius: 10px;
         }
 
         h1.product-title {
