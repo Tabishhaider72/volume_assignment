@@ -1,0 +1,30 @@
+import React from 'react';
+
+const Navbar = () => {
+  return (
+    <nav>
+      {/* Left: Logo */}
+      <div className="navbar-left">
+        <img src="../assets/logo.png" alt="Logo" className="logo" />
+      </div>
+
+      {/* Center: Navigation Links */}
+      <ul className="navbar-links">
+        <li>Home</li>
+        <li>Mattress</li>
+        <li>Accessories</li>
+        <li>About Us</li>
+        <li>Contact</li>
+      </ul>
+
+      {/* Right: Icons */}
+      <div className="navbar-icons">
+        <img src="/assets/search-icon.png" alt="Search" className="icon" />
+        <img src="/assets/profile-icon.png" alt="Profile" className="icon" />
+        <img src="/assets/bag-icon.png" alt="Bag" className="icon" />
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
